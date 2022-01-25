@@ -1,0 +1,89 @@
+#clockContainer{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background-image: url(clock.png);
+    background-size: 100%;
+}
+
+#hour, #minute, #second{
+
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.8%;
+    height: 25%;
+    position: absolute;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+#minute{
+    width: 1.6%;
+    height: 30%;
+      position: absolute;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+
+}
+#second{
+    width: 1%;
+    height: 40%;
+      position: absolute;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+
+
+}
+#dgclock{
+  width: 40vw;
+  height: 10vw;
+
+  border-radius: 10px;
+  border: 1px solid grey;
+  color: grey;
+  text-align: center;
+  text-decoration: underline;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 2rem;
+margin: auto;
+margin-top: 10%;
+padding-top: 2%;
+}
+.ft{
+  color: grey;
+  font-family: cursive;
+  font-size: 1.2rem;
+  margin-left: 36%;
+}
+.themes{
+  color: grey;
+
+  font-family: cursive;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  right: 2%;
+  top: 2%;
+}
+.theme{
+  color: green;
+  display: inline-block;
+}
+
+.theme:hover{
+  cursor: pointer;
+}
+.theme2{
+    background-color: hsl(223, 31%, 20%);
+}
+.theme3{
+  background-color: pink;
+}
